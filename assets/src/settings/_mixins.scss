@@ -51,3 +51,19 @@
     }
   }
 }
+
+//crossBrowser
+@mixin crossBrowser($property, $val){
+  -webkit-#{$property}: $val;
+  -moz-#{$property}: $val;
+  -ms-#{$property}: $val;
+  #{$property}: $val;
+}
+
+//Background Image
+@mixin bg-img($url){
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

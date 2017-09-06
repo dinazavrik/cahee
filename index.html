@@ -8,45 +8,53 @@
 	</head>
 	<body>
 		<header class="header">
-			<div class="row header__row">
-				<div class="col-2 header__logo">
+
+			<div class="header__row">
+				<div class="header__logo">
 					<a href="#">
 						<img src="assets/dist/img/logo.png/" alt="Cahee">
 					</a>
 				</div>
-				<nav class="col-10 header__menu">
+
+				<nav class="header__menu">
+
+					<div class="header__menu-icon menu-icon">
+						<span class="menu-icon__line"></span>
+					</div>
+
 					<ul class="menu">
 						<li class="menu__item menu__item--active">
-							<a class="menu__link" href="">Home</a>
+							<a class="menu__link" href="#">Home</a>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link" href="">About</a>
+							<a class="menu__link" href="#ab">About</a>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link" href="">Services</a>
+							<a class="menu__link" href="#">Services</a>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link" href="">Gallery</a>
+							<a class="menu__link" href="#">Gallery</a>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link" href="">Blog</a>
+							<a class="menu__link" href="#">Blog</a>
 						</li>
 						<li class="menu__item">
-							<a class="menu__link" href="">Contact</a>
+							<a class="menu__link" href="#">Contact</a>
 						</li>
 					</ul>
 				</nav>
 
-				<section class="banner">
-					<a href="#" class="banner__btn">GET FREE NOW</a>
-				</section>
-
 				</div><!-- .row-->
+
+			<section class="banner">
+				<a href="#" class="banner__btn">GET FREE NOW</a>
+			</section>
+
 			</header>
 
 	<main>
 
-		<section class="title-text">
+		<section id="ab" class="title-text">
 
 			<div class="title-text__container container">
 				
@@ -86,5 +94,7 @@
 
 	</main>
 
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="assets/dist/js/script.js"></script>
 		</body>
 	</html>
